@@ -3,8 +3,20 @@
     padding: 0px;
 }
 
+.navbar {
+    margin: 0%;
+    width: 100%;
+}
+
 h1{
-    margin: 10px;
+    margin: 0px;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+.logocontainer {
+    display: flex;
+    justify-content: center;
 }
 
 h2{
@@ -14,6 +26,7 @@ h2{
 
 p {
     margin: 10px;
+    
 }
 
 section {
