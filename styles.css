@@ -1,11 +1,38 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Merriweather', serif;
 }
+
+body{
+    background: rgb(89,157,217);
+    background: linear-gradient(0deg, rgba(89,157,217,1) 0%, rgba(185,214,172,1) 47%, rgba(242,179,191,1) 81%);
+}
+
+/* Menu Navegación */
 
 .navbar {
     margin: 0%;
     width: 100%;
+    background-color: #599DD9;
+}
+
+.navbar-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 20px ;
+}
+
+.nav-link{
+    color: #1B1B1B !important;
+}
+
+/* Carousel */
+
+.carousel{
+    width: 90%;
+    margin: 50px auto;
 }
 
 h1{
@@ -14,9 +41,19 @@ h1{
     text-align: center;
 }
 
-.logocontainer {
-    display: flex;
-    justify-content: center;
+/* Mensaje Bienvenida */
+
+.container-mensj-bienvenida{
+    width: 70%;
+    margin: 50px auto;
+    background-color: #F7F7F7;
+}
+
+/* Imagenes de las secciones */
+
+.section-img{
+    width: 300px;
+    height: 300px;
 }
 
 h2{
@@ -29,7 +66,7 @@ p {
     
 }
 
-section {
+.section{
 display: flex;
 flex-wrap: wrap;
 align-content: center;
@@ -65,4 +102,10 @@ justify-content: center;
 
 .my-float{
 	margin-top:16px;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 100px;
 }
