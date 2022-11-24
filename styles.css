@@ -2,11 +2,16 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Merriweather', serif;
+    
+}
+
+p, h2 {
+    color: white;
 }
 
 body{
     background: rgb(89,157,217);
-    background: linear-gradient(0deg, #F285A2 0%, #94BF80 47%, #599DD9);
+    background: linear-gradient(0deg, #D90B56 0%, #71A658 47%, #0678BF);
 }
 
 /* Menu Navegación */
@@ -14,13 +19,13 @@ body{
 .navbar {
     margin: 0%;
     width: 100%;
-    background-color: #0678BF;
+    background-color: #0468BF;
     
 }
 .nav-menu{
     display: flex;
     justify-items: center;
-    align-items: center;
+    margin: 10px;
 }
 .logo-container{
     display: flex; 
@@ -90,6 +95,7 @@ justify-content: center;
 }
 
 .imgcontainer img{
+    border-radius: 30px;
     margin: 5px;
     padding: 5px;
 }
