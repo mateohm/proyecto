@@ -1,9 +1,14 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Merriweather', serif;
-    
+    font-family: 'Raleway', sans-serif;
 }
+
+/* .white-text{
+    color: #FFF;
+    font-size: 2vw;
+    
+} */
 
 p, h2 {
     color: white;
@@ -27,6 +32,15 @@ body{
     justify-items: center;
     margin: 10px;
 }
+
+
+.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* logo */
 .logo-container{
     display: flex; 
     justify-content: center;
@@ -36,10 +50,6 @@ body{
 .logo {
     border-radius: 100%;
     width: 30vw;
-}
-
-.nav-link{
-    color: #1B1B1B !important;
 }
 
 /* Carousel */
@@ -58,8 +68,11 @@ h1{
 /* Mensaje Bienvenida */
 
 .container-mensj-bienvenida{
-    width: 70%;
-    margin: 50px auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
 
 }
 
@@ -70,23 +83,6 @@ h1{
     height: 300px;
 }
 
-h2{
-    margin: 10px;
-    text-align: center;
-}
-
-p {
-    margin: 10px;
-    
-}
-
-.section{
-display: flex;
-flex-wrap: wrap;
-align-content: center;
-justify-content: center;
-
-}
 
 .imgcontainer {
     display: flex;
@@ -99,6 +95,29 @@ justify-content: center;
     margin: 5px;
     padding: 5px;
 }
+
+/* secciones */
+
+h2{
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    width: 70%;
+    margin: 1rem;
+    font-size: larger;
+}
+
+.section{
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+
+}
+
 /* whatsapp button */
 .float{
 	position:fixed;
@@ -110,9 +129,9 @@ justify-content: center;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-  font-size:30px;
+    font-size:30px;
 	box-shadow: 2px 2px 3px #999;
-  z-index:100;
+    z-index:100;
 }
 
 .my-float{
