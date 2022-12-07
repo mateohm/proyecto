@@ -16,7 +16,7 @@ p, h2 {
 
 body{
     background: rgb(89,157,217);
-    background: linear-gradient(0deg, #D90B56 0%, #71A658 47%, #0678BF);
+    background: linear-gradient(0deg, #D90B56 0%,/*  #71A658 47%, */ #1a89ce);
 }
 
 /* Menu Navegación */
