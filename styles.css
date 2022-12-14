@@ -143,3 +143,12 @@ justify-content: center;
 footer{
     margin-top: 100px;
 }
+
+/* Responsive */
+
+@media (max-width: 400px) {
+    .section-img{
+        width: 250px;
+        height: 250px;
+    }
+}
