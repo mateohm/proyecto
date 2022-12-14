@@ -56,7 +56,7 @@ body{
 
 .carousel{
     width: 90%;
-    margin: 3vw;
+    margin: 50px auto;
 }
 
 h1{
@@ -144,7 +144,26 @@ footer{
     margin-top: 100px;
 }
 
+.container-iconos i{
+    font-size: 35px;
+    margin: 15px;
+    color: #FFF;
+}
+
+.container-iconos a{
+    text-decoration: none;
+}
+
 /* Responsive */
+
+
+@media (min-width: 1600px) {
+    .section-img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
 
 @media (max-width: 400px) {
     .section-img{
