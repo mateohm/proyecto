@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* .white-text{
+    color: #FFF;
+    font-size: 2vw;
+    
+} */
+
+p, h2 {
+    color: white;
+}
+
+body{
+    background: rgb(89,157,217);
+    background: linear-gradient(0deg, #D90B56 0%,/*  #71A658 47%, */ #1a89ce);
+}
+
+/* Menu Navegación */
+
+.navbar {
+    margin: 0%;
+    width: 100%;
+    background-color: #0468BF;
+    
+}
+.nav-menu{
+    display: flex;
+    justify-items: center;
+    margin: 10px;
+}
+
+
+.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* logo */
+.logo-container{
+    display: flex; 
+    justify-content: center;
+    margin: 10px;
+}
+
+.logo {
+    border-radius: 100%;
+    width: 30vw;
+}
+
+/* Carousel */
+
+.carousel{
+    width: 90%;
+    margin: 50px auto;
+}
+
+h1{
+    margin: 0px;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+/* Mensaje Bienvenida */
+
+.container-mensj-bienvenida{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+/* Imagenes de las secciones */
+
+.section-img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.imgcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.imgcontainer img{
+    border-radius: 30px;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* secciones */
+
+h2{
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    width: 70%;
+    margin: 1rem;
+    font-size: larger;
+}
+
+.section{
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+
+}
+
+/* whatsapp button */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/* Footer */
+
+footer{
+    margin-top: 100px;
+}
+
+.container-iconos i{
+    font-size: 35px;
+    margin: 15px;
+    color: #FFF;
+}
+
+.container-iconos a{
+    text-decoration: none;
+}
+
+/* Responsive */
+
+
+@media (min-width: 1600px) {
+    .section-img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .section-img{
+        width: 250px;
+        height: 250px;
+    }
+}
